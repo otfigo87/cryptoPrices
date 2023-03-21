@@ -3,6 +3,7 @@ import Main from './pages/Main';
 import Currencies from './pages/Currencies';
 import Price from './pages/Price';
 import NavBar from './components/NavBar';
+import News from './pages/News';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/currencies" element={<Currencies />} />
+        <Route path="/news" element={<News />} />
         <Route path="/price/:symbol" element={<Price />} />
       </Routes>
     </div>
