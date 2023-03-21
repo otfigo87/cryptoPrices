@@ -1,4 +1,4 @@
-![ScreenShot1](./public/screenshot2.png)
+![ScreenShot1](./public/Screenshot2.png)
 ![ScreenShot2](./public/screenshot1.png) 
 ![ScreenShot3](./public/screenshot3.png)
 
