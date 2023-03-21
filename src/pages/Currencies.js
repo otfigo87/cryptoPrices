@@ -17,7 +17,7 @@ const Currencies = () => {
       {currencies.map((currency) => {
         const { name, symbol } = currency;
         return (
-          <Link to={`/price/${symbol}`} key={symbol}>
+          <Link to={`/price/${symbol}`} key={symbol} className="currencies-list">
             <h2>{name}</h2>
           </Link>
         );
